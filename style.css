@@ -296,3 +296,21 @@ aside{
     width: 100%;
 }
 
+
+/*Footer*/
+
+
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+}
+footer .hébergements{
+   padding-left: 250px;
+}
+footer .assistance{
+    padding-left: 300px;
+}
+
+
