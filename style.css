@@ -1,6 +1,25 @@
+/*@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('Font/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Font/raleway-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('Font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
 body{
+
     padding: 0;
     margin: 0;
+    font-family:'Raleway';
 }
 header{
     display: flex;
@@ -32,17 +51,16 @@ a{
     margin: 0;
     list-style-type: none;
 }
-.nav ul li{
-    margin-left: 2px;
-}
 .nav ul li a{
     display: block;
     float: left;
-    width: 100px;
+    width: 120px;
     text-align: center;
     text-decoration: none;
     color: #0065FC;
-    padding: 5px; 
+    padding: 5px;
+    padding-top: 20px; 
+    margin-left: 20px;
 }
 .nav ul li a:hover{
     color: #0065FC;
