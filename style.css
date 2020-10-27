@@ -245,4 +245,54 @@ aside{
     padding-left: 10px;
     width: 200px;
 }
+/*2ème section*/
+
+
+.activités{
+    display: flex;  
+    flex-direction: row;          
+}
+
+.activités .container{
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(133, 133, 133, 0.24)
+}
+.activités .container img{
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+}
+.activités .little_container{
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(133, 133, 133, 0.24)
+}
+.activités .little_container p{
+    font-weight: 900;
+}
+.activités .little_container img{
+    height: 80%;
+    width: 100%;
+}
+.activités .little_container_2{
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(133, 133, 133, 0.24)
+}
+.activités .little_container_2 img{
+    height: 80%;
+    width: 100%;
+}
 
