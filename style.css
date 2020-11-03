@@ -314,3 +314,22 @@ footer .assistance{
 }
 
 
+@media screen and (max-width: 1300px){
+    .nav ul li a {
+        float: none;
+        text-align: start;
+
+    }
+    section{
+        display: block;
+        width: 100%;
+    }
+    aside{
+        display: block;
+        width: 75%;
+    }
+    .activités{
+        display: block;
+        width: 100%;
+    }
+}
