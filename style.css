@@ -17,8 +17,8 @@
 }*/
 body{
 
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
     font-family:'Raleway';
 }
 header{
@@ -305,14 +305,8 @@ footer{
     padding: 20px;
     background-color: #F2F2F2;
     margin-top: 50px;
+    justify-content: space-between;
 }
-footer .hébergements{
-   padding-left: 250px;
-}
-footer .assistance{
-    padding-left: 300px;
-}
-
 
 @media screen and (max-width: 1300px){
     .nav ul li a {
@@ -329,7 +323,54 @@ footer .assistance{
         width: 75%;
     }
     .activités{
-        display: block;
+        display: flex;
+        width: 80%;
+    }
+    .card_aside{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 1250px){
+    section{
+        display: flex;
+    }
+    aside{
+        order: 1;
+    }
+    article{
+        order: 2;
+    }
+    .activités{
+        display: flex;
+        width: 100%;
+    }
+    .portfolio_aside .card_aside{
+        height: 500px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .portfolio_aside .card_aside .card_aside_photo{
+        height: auto;
+        width: auto;
+    }
+    .portfolio_aside .card_aside .card_text{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .portfolio .card_item{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        display: block;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
 }
