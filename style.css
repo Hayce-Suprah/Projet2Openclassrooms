@@ -421,12 +421,32 @@ footer{
     margin-top: 50px;
     justify-content: space-between;
 }
+@media screen and (max-width: 1400px){
+    
+    .card_aside{
+        width: auto;
+        margin-bottom: 60px;
+        height: 300px;
+    }
+    .portfolio_aside .card_aside .card_aside_photo{
+        height: auto;
+    } 
+    .portfolio .card_item{
+        width: 400px;
+    }
+
+}
+
+
 
 @media screen and (max-width: 1300px){
     .nav ul li a {
         float: none;
         text-align: start;
 
+    }
+    .portfolio{
+        padding: 0;
     }
     section{
         display: block;
@@ -445,7 +465,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1280px){
     section{
         display: flex;
     }
@@ -645,6 +665,9 @@ footer{
 }
 @media screen and (max-width: 400px){
     
+    .filtres p{
+        padding-left: 25px;
+    }
     aside{
         margin: 0;
     }
